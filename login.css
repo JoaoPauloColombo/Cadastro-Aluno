@@ -35,7 +35,6 @@ body {
     padding: 40px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
     gap: 5px;
-    border: black solid 2px;
 }
 
 .areaLogin img {
