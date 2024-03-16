@@ -1,0 +1,50 @@
+/*ul{
+    width: 200px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+li a{
+    display: block;
+    padding: 8px 16px;
+    background-color: white;
+    text-decoration: none;
+    color: #000;
+}
+li a:hover:not(.active){
+    background-color: rgb(184, 184, 184);
+    color: black;
+}
+li{
+    text-align: center;
+    border-bottom: 1px solid none;
+}
+li:last-child{
+    border-bottom: none;
+}*/
+.cabecalho{
+    background-color: #3F2305;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 32px;
+}
+.cabecalho img{
+    max-width: 100px;
+}
+.cabecalho ul{
+    list-style: none;
+}
+.cabecalho li{
+    display: inline-block;
+}
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+li a:hover:not(.active){
+    background-color: rgb(184, 184, 184);
+    color: white;
+}
